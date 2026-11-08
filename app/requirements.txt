@@ -1,0 +1,7 @@
+# torch and PIL come from the mandated ROCm base image; nothing here may pull
+# a different torch (transformers does not depend on torch at install time).
+transformers==5.22.2
+huggingface-hub==2.4.0
+pypdf==6.17.0
+python-docx==1.2.0
+openpyxl==3.1.5
